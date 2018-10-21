@@ -2,3 +2,11 @@
 **      AntonVoronezh
 ****************************/
 
+.logo {
+border: 1px solid #ffffff;
+width: 50%;
+}
+
+.navigation {
+border: 1px solid #ffffff;
+}
