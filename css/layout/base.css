@@ -1,8 +1,5 @@
 /****************************
-**
-** LoftSchool project #1
-** AntonVoronezh
-**
+**      AntonVoronezh
 ****************************/
 
 html,
@@ -11,25 +8,67 @@ body {
     height: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'TitilliumWeb', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #606060;
 }
 
 .wrapper {
-    min-width: 1200px;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     height: 100%;
+    /* border: 1px solid #000000; */
 }
 
 .wrapper__content {
-    flex: 1;
+    flex: 1 0 auto;
+    /* border: 1px solid #000000; */
+}
+
+.footer {
+    border: 1px solid #000000;
+    flex: 0 0 auto;
+    min-height: 200px;
+    background-color: #f8f8f8;
 }
 
 .container {
-    width: 1200px;
+    width: 980px;
     margin: 0 auto;
-    
+    /* border: 1px solid #cccccc; */
+}
+
+.container--header {
+    /* border: 1px solid #42cbf4; */
+}
+
+.container--maincontent {
+    /* border: 1px solid #42cbf4; */
+    display: flex;
+}
+
+.container--footer {
+    /* border: 1px solid #42cbf4; */
+}
+
+.header {
+    /* border: 1px solid #000000; */
+    min-height: 120px;
+    background-color: #242424;
+}
+
+.maincontent {
+    /* border: 1px solid #000000; */
+}
+
+.aside {
+    /* border: 1px solid #f441ca; */
+    width: 50%;
+}
+
+.main {
+    /* border: 1px solid #f441ca; */
+    width: 50%;
 }
 
 * {
@@ -58,10 +97,13 @@ h4,
 h5,
 h6 {
     margin: 0px;
-    font-style: normal;
 }
 
 table {
     border-collapse: collapse;
     border-spacing: 0px;
+}
+
+img {
+    display: block;
 }
