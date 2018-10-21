@@ -40,9 +40,10 @@ body {
 
 .container--header {
     /* border: 1px solid #42cbf4; */
+    min-height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    align-items: stretch;
 }
 
 .container--maincontent {
@@ -58,6 +59,8 @@ body {
     /* border: 1px solid #000000; */
     min-height: 120px;
     background-color: #242424;
+    display: flex;
+    align-items: center;
 }
 
 .maincontent {
