@@ -2,3 +2,39 @@
 **      AntonVoronezh
 ****************************/
 
+.search {
+    width: 100%;
+    /* border: 1px solid #000000; */
+}
+
+.search__title {
+    display: block;
+    width: 100%;
+    background-color: #e0dbdb;
+    padding: 15px;
+    /* border: 1px solid #000000; */
+    border-left: 3px solid #339933;
+}
+
+.search__form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search__input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border: 1px  solid #cccccc;
+    border-right: none;
+}
+
+.search__button {
+    width: 50px;
+    background-image: url('../../img/icons/Right.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px  solid #cccccc;
+    border-left: none;
+}
