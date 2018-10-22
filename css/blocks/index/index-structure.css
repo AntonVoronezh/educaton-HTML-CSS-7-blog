@@ -12,12 +12,12 @@
 }
 
 .aside--index {
-    
+    border: 1px solid #000000;
 }
 
 .main--index {
     border: 1px solid #000000;
-    padding-right: 40px;
+    padding-right: 50px;
 }
 
 .footer--index {}
