@@ -6,10 +6,18 @@
 
 }
 
-.maincontent--index {}
+.maincontent--index {
+    /* border: 1px solid #cccccc; */
+    height: 100%;
+}
 
-.aside--index {}
+.aside--index {
+    
+}
 
-.main--index {}
+.main--index {
+    border: 1px solid #000000;
+    padding-right: 20px;
+}
 
 .footer--index {}

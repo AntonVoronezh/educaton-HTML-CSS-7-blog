@@ -47,8 +47,9 @@ body {
 }
 
 .container--maincontent {
-    /* border: 1px solid #42cbf4; */
+    border: 1px solid #cccccc;
     display: flex;
+    flex-grow: 1;
 }
 
 .container--footer {
@@ -69,12 +70,12 @@ body {
 
 .aside {
     /* border: 1px solid #f441ca; */
-    width: 50%;
+    width: 30%;
 }
 
 .main {
     /* border: 1px solid #f441ca; */
-    width: 50%;
+    width: 70%;
 }
 
 * {
@@ -123,4 +124,8 @@ img {
     border: 0;
     clip: rect(0, 0, 0, 0);
     overflow: hidden;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
